@@ -4,6 +4,10 @@
 
 char *push1=0;
 
+#ifndef SLOW_DBUG_STUFF
+#define SLOW_DBUG_STUFF
+#endif
+
 #include <my_global.h>  /* This includes dbug.h */
 #include <my_sys.h>
 #include <my_pthread.h>
